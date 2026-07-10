@@ -38,12 +38,17 @@ public class Dipendente {
     private String imgProfilo;
 
     //COSTRUTTORE
-    public Dipendente(String username, String nome, String cognome, String email) {
+    public Dipendente(String username, String nome, String cognome, String email, String imgProfilo) {
         this.username = username;
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
-        this.imgProfilo = "https://ui-avatars.com/api/?name=" + nome + "+" + cognome;
+
+        if (imgProfilo == null || imgProfilo.isBlank()) {
+            this.imgProfilo = "https://ui-avatars.com/api/?name=" + nome + "+" + cognome;
+        } else {
+            this.imgProfilo = imgProfilo;
+        }
     }
 
 
