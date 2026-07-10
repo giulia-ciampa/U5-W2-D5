@@ -1,0 +1,1 @@
+![Diagramma DrawSQL](screenshots/DrawSQL.png)
