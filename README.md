@@ -1,1 +1,7 @@
 ![Diagramma DrawSQL](screenshots/DrawSQL.png)
+![Diagramma PgAdmin](screenshots/diagramma_pgadmin.png)
+![Post_dipendente](screenshots/POST_dipendente.png)
+![Post_prenotazione](screenshots/POST_PRENOTAZIONI.png)
+![Post_viaggi](screenshots/POST_VIAGGI.png)
+![Cambio_stato_viaggio](screenshots/CAMBIO_STATO_VIAGGIO.png)
+![prenotazione_esistente](screenshots/PRENOTAZIONE_ESISTENTE_PER_UTENTE_NEL_GIORNO.png)
